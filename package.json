@@ -1,8 +1,24 @@
 {
   "name": "@horchatajs/hjs-multiselect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/hjs-multiselect.js",
   "license": "MIT",
+  "author": "Emilio Forrer <dev.emilio.forrer@gmail.com> (https://github.com/emilioforrer)",
+  "contributors": [
+    {
+      "name": "Ricardo Ramírez",
+      "email": "hola@ricardoerl.com",
+      "url": "https://github.com/ricardoerl"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HorchataJS/hjs-multiselect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HorchataJS/hjs-multiselect/issues"
+  },
+  "homepage": "https://github.com/HorchataJS/hjs-multiselect#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "coffee-script": "^1.12.7",
