@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Vue</title>
+  <link rel="stylesheet" type="text/css" href="dist/hjs-multiselect.min.css">
+  <script src="node_modules/vue/dist/vue.js"></script>
+  <script src="dist/hjs-multiselect.js"></script>
+</head>
+<body>
+  <div id="app">
+    <p><label for="">Países</label></p>
+    <hjs-multiselect placeholder="Please select countries" v-bind:items="items" v-bind:select="select"  @change="onChange"></hjs-multiselect>
+  </div>
+  <div id="preview"></div>
+
+  <script>
+    Vue.use(HjsMultiselect);
+    new Vue({
+      el: '#app',
+      data: {
+
+        select: [{ text: 'El Salvador', value: 'SV' }],
+        items: [
+          {text: "El Salvador", value: "SV"},
+          {text: "Guatemala", value: "GT"},
+          {text: "Honduras", value: "HN"}
+        ]
+      },
+      methods: {
+        onChange: function(item, items){
+          let preview = document.getElementById('preview');
+          preview.innerHTML = "<p>On change event, preview of selected items: "+JSON.stringify(items)+ "</p>"
+        }
+      }
+    })
+  </script>
+</body>
+</html>

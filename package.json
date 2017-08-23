@@ -1,0 +1,20 @@
+{
+  "name": "@horchatajs/hjs-multiselect",
+  "version": "0.1.0",
+  "main": "dist/hjs-multiselect.js",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "coffee-script": "^1.12.7",
+    "gulp": "^3.9.1",
+    "postcss": "^6.0.9",
+    "rollup": "^0.47.4",
+    "rollup-plugin-coffee-script": "^1.1.0",
+    "rollup-plugin-minify": "^1.0.3",
+    "rollup-plugin-scss": "^0.3.0",
+    "run-sequence": "^2.1.0"
+  },
+  "dependencies": {
+    "vue": "^2.4.2"
+  }
+}
