@@ -2,6 +2,12 @@
 
 ## Releases
 
+### v0.1.2
+
+#### Features
+
+* Improving documentation
+
 ### v0.1.1
 
 #### Features
