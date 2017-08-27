@@ -1,12 +1,14 @@
 # hjs-multiselect
 
-It's a multiselect `vue.js` component.
+It's a multiselect `vue.js` component. [Demo](https://cdn.rawgit.com/HorchataJS/hjs-multiselect/master/index.html)
 
 ![Example](screenshot.png)
 
 ####  Warning!
 
 This is an example of how to create and publish a npm package and it was created for learning purposes and as an example for horchata js conference, **DON'T USE IT ON PRODUCTION**
+
+If you want to read the **gitbook** about, "How to create a Node js package", go [here](https://emilioforrer.gitbooks.io/creacion-y-distribucion-de-un-paquete-de-nodejs/content/) (it's in spanish)
 
 
 
